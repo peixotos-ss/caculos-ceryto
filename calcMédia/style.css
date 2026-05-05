@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: "Roboto Mono", monospace;
+    font-size: 50px;
+
+}
+
+body{
+    padding-top: 80px;
+    background-image: url('../images/bg.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0px 3px 10px black;
+}
+
+a{
+    text-decoration: none;
+    color: #090909;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+a.hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+input{
+    border-radius: 999px;
+    padding: 15px;
+    border: 2px solid black;
+    box-shadow: 0px 3px 10px black;
+}
+
+button{
+    border-radius: 999px;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 0px 3px 10px black;
+}
