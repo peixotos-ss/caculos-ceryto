@@ -10,4 +10,16 @@ function check(){
 
     const thisyear= new Date().getFullYear()
     const age=thisyear- wasBorn
+    if(age>=18){
+        res.textContent= "Over 18, Entry ✅  "
+        clientAge.textContent= age
+        document.getElementById('v1').style.display='block'
+        document.getElementById('v2').style.display='none'
+    }else{
+        res.textContent= "under 18,    NOT ALLOWED🔞 "
+        clientAge.textContent= age
+        document.getElementById('v2').style.display='block'
+        document.getElementById('v1').style.display='none'
+
+    }
 }
